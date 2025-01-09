@@ -67,6 +67,7 @@
     /* position: absolute; */
     width: 802.9px;
     height: 806px;
+    margin-top: 50px;
 }
 
 .discount-heading {
@@ -154,3 +155,19 @@
     font-weight: 700;
     line-height: 24px;
 }
+
+/* venue section starts here */
+.venue{
+    width: 1320px;
+    height: 482px;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin: auto;
+}
+
+    
+    
+    
+    
