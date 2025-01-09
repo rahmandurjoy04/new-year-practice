@@ -116,7 +116,7 @@
     border-radius: 16px;
 
     background: linear-gradient(90.00deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%), url("../images/Vectorrr.png");
-    position: absolute;
+    /* position: absolute; */
     width: 1320px;
     height: 600px;
     background-repeat: no-repeat;
@@ -157,17 +157,187 @@
 }
 
 /* venue section starts here */
-.venue{
+.venue-section {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0) 100%);
     width: 1320px;
     height: 482px;
-    background-color: antiquewhite;
+    margin-top: 100px;
+}
+
+span {
+    color: rgb(255, 0, 0);
+}
+
+.btn {
     display: flex;
     justify-content: center;
-    align-items:center;
+    align-items: center;
+    margin-top: 48px;
+}
+
+.date-time {
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 600;
+    width: 549px;
+    height: 168px;
+    text-align: center;
+}
+
+
+button {
+    border-radius: 8px;
+    background: rgb(255, 0, 0);
+    width: 167px;
+    height: 56px;
+}
+
+/* coming-soon-section */
+.column1 {
+    margin-top: 100px;
+}
+
+.coming-soon {
+    display: flex;
+    justify-content: space-between;
+    width: 1320px;
+    height: 463px;
+    margin: auto;
+    margin-top: 100px;
+    gap: 50px;
+}
+
+.coming-soon .sub-heading {
+    width: 207px;
+    height: 29px;
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.coming-soon .heading {
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    width: 328px;
+    height: 60px;
+}
+
+.coming .content {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    width: 393px;
+    height: 128px;
+    /* align-content: center; */
+}
+
+.coming-soon .middle-image {
+    width: 364.84px;
+    height: 364.84px;
+    /* box-sizing: border-box; */
+    border: 15px solid rgb(255, 0, 0);
+    border-radius: 50%;
+    padding: 14px;
+}
+
+.coming-soon .right-heading {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    width: 126px;
+    height: 58px;
+    margin-bottom: 16px;
+}
+
+.right-content {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: left;
+    width: 276px;
+    height: 96px;
+    margin-bottom: 43px;
+}
+
+/* holiday sales start here */
+.holiday-section {
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    width: 1068px;
+    height: 260px;
     margin: auto;
 }
 
-    
-    
-    
-    
+.holiday {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.holiday-sub-heading {
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: left;
+    width: 263px;
+    height: 29px;
+}
+
+.holiday-heading {
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 91px;
+    letter-spacing: 0%;
+    text-align: center;
+    width: 677px;
+    height: 91px;
+}
+
+.holiday-content {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: center;
+    width: 1068px;
+    height: 96px;
+}
+
+/* group 79 starts here  */
+.group-79 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.images {
+    width: 1320px;
+    height: 662.07px;
+    background-image: url("../images/Group\ 75.png"),url("../images/Group\ 44.png"),url("../images/Rectangle\ 2.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center left,center right,bottom;
+}
